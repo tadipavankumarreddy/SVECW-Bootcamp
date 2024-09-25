@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 import androidx.activity.EdgeToEdge;
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
@@ -26,6 +27,11 @@ public class MainActivity extends AppCompatActivity {
         });
 
         result = findViewById(R.id.score);
+
+        if(savedInstanceState!=null && savedInstanceState.containsKey("COUNT")){
+            count = savedInstanceState.getInt("COUNT");
+            result.setText(String.valueOf(count));
+        }
     }
 
     // This method invokes as soon as the + button on activity_main is clicked
@@ -38,5 +44,11 @@ public class MainActivity extends AppCompatActivity {
     public void decrementScore(View view) {
         count--;
         result.setText(String.valueOf(count));
+    }
+
+    @Override
+    protected void onSaveInstanceState(@NonNull Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putInt("COUNT",count);
     }
 }
