@@ -42,3 +42,35 @@
 **Brief about the app that we are going to develop tomorrow**
 
 ![Scorekeeper](/scorekeeper.png)
+
+#### 25-09-2024
+**Agenda**
+- Design the Score keeper app
+  - Views, ViewGroups & Layouts
+  - XML Design
+- Get the app into action
+- Design for landscape
+- Themes
+
+**What is a view ?**
+- All UI Components in android are called as Views
+- View is the super class of all UI classes
+- Examples: Buttons, EditText, TextViews, RecyclerView etc.,  
+[officialDoc](https://developer.android.com/reference/android/view/View)   
+
+**What is a ViewGroup ?**
+- A ViewGroup is also a View that can accommodate other views inside it. 
+- Ex: LinearLayout, constraintLayout, RecyclerView and etc.,  
+[Official Doc](https://developer.android.com/reference/android/view/ViewGroup)  
+
+**Layout**  
+- Layout offers the basic structure of the design of your activity (A single screen)
+- Ex: LinearLayout, ConstraintLayout, FrameLayout and etc.,  
+[official Doc](https://developer.android.com/develop/ui/views/layout/declaring-layout)
+
+
+![vvgl](/vvgl.png)
+
+![vvgl2](/vvgl2.png)
+
+
