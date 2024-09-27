@@ -73,4 +73,10 @@
 
 ![vvgl2](/vvgl2.png)
 
+- Desinging seperately for landscape 
+- SaveInstanceState
+
+
+### Day 1  (BootCamp)
+[ListView](https://developer.android.com/reference/android/widget/ListView)
 
