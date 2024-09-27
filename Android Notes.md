@@ -80,3 +80,28 @@
 ### Day 1  (BootCamp)
 [ListView](https://developer.android.com/reference/android/widget/ListView)
 
+[Recyclerview](https://developer.android.com/develop/ui/views/layout/recyclerview)
+[Slides](https://docs.google.com/presentation/d/1nFJqH0OSSZmjaycRzEGE6vvsm6jlxghQyoO15KKbkwc/edit#slide=id.p)
+
+#### Assignment -  1 
+Try Staggered Grid Layout Manager and display the data. [Favorite Actors]
+
+[Github Public Apis](https://github.com/public-apis/public-apis)
+
+#### Assignment 2
+Try to get the books data and show it on recyclerview along with images. and after selecting one item, show the details of the item in another activity. 
+
+|Videos|Length|Link
+| ----- | :---: | :---: |
+| Introduction to Chapter \- 2 | 4 | [https://youtu.be/aVmWnUVA7iU](https://youtu.be/aVmWnUVA7iU) |
+| Explicit Intents | **16** | [https://youtu.be/te0n3Vn9aik](https://youtu.be/te0n3Vn9aik) |
+| Passing Data | **12** | [https://youtu.be/MmcWLiWNTAI](https://youtu.be/MmcWLiWNTAI) |
+| Android Activity Stack (TASKS) | **3** | [https://youtu.be/7JcqB6VRoto](https://youtu.be/7JcqB6VRoto) |
+| Implicit Intents | **17** | [https://youtu.be/Q0bLt9HHONc](https://youtu.be/Q0bLt9HHONc) |
+| Android Activity Lifecycle | **15** | [https://youtu.be/pZz8d-aw5OU](https://youtu.be/pZz8d-aw5OU) |
+| Summary of Chapter 2 and Next Steps | **2** | [https://youtu.be/zZWI4F8rmXg](https://youtu.be/zZWI4F8rmXg) |
+| Exploring UI Components \- Building Registration Form App Part \- 1 | **16** | [https://youtu.be/\_VePheWeatY](https://youtu.be/_VePheWeatY) |
+| Exploring UI Components \- Building Registration Form App Part \- 2 | **8** | [https://youtu.be/GfXNN7bJ-h4](https://youtu.be/GfXNN7bJ-h4) |
+| Android Input Controls | 20 | [https://youtu.be/m60-zC0k-I8](https://youtu.be/m60-zC0k-I8) |
+
+
