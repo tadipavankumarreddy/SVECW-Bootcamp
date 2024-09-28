@@ -14,6 +14,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.loader.content.AsyncTaskLoader;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.gson.Gson;
 
@@ -29,7 +31,7 @@ import javax.net.ssl.HttpsURLConnection;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView result;
+    RecyclerView recyclerView;
     ProgressBar progressBar;
     EditText et;
 
@@ -44,10 +46,11 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        result = findViewById(R.id.textView);
+        recyclerView = findViewById(R.id.recyclerview);
         progressBar = findViewById(R.id.progressBar);
         et = findViewById(R.id.book_name);
         progressBar.setVisibility(View.INVISIBLE);
+        recyclerView.setLayoutManager(new GridLayoutManager(this,2));
     }
 
     public void getJoke(View view) {
@@ -100,10 +103,8 @@ public class MainActivity extends AppCompatActivity {
 
             Gson g = new Gson();
             Books b = g.fromJson(s,Books.class);
-            result.setText("");
-            for(int i=0; i<b.getItems().size(); i++){
-                result.append(b.getItems().get(i).getVolumeInfo().getTitle()+"\n");
-            }
+            BooksAdapter adapter = new BooksAdapter(MainActivity.this,b.getItems());
+            recyclerView.setAdapter(adapter);
         }
     }
 }

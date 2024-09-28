@@ -105,3 +105,14 @@ Try to get the books data and show it on recyclerview along with images. and aft
 | Android Input Controls | 20 | [https://youtu.be/m60-zC0k-I8](https://youtu.be/m60-zC0k-I8) |
 
 
+#### Question
+android:usesCleartextTraffic="true
+
+what does it do ?
+
+
+**Agenda**  
+- Volley
+- SharedPreferences
+- SQLite
+- Firebase Realtime Databases
