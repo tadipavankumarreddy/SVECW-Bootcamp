@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "584268572117",
+    "project_id": "svecw-firebase",
+    "storage_bucket": "svecw-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584268572117:android:4a3a88b0a260a85f5f895c",
+        "android_client_info": {
+          "package_name": "com.svecw.fbrtdb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpNBTocoNSHiCbUogsUJlVfKGYJd1MLEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "656973062688",
+    "project_id": "fir-rtdb-178ff",
+    "storage_bucket": "fir-rtdb-178ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656973062688:android:c5097ccb53350a10179245",
+        "android_client_info": {
+          "package_name": "com.nareshit.firebasertdb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwg7t-75pegLTuhegPC_BEammx1x6qAws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
